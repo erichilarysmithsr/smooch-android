@@ -31,6 +31,10 @@ paths:
     get:
       action: google_androidmanagement/oauthCallback
       accounts: {}
+  /paths1:
+    get:
+      action: google_androidpublisher/oauthCallback
+      accounts: {}
 tests:
   test:
     action: google_androidmanagement/oauthCallback
