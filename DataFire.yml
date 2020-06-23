@@ -47,6 +47,10 @@ paths:
     get:
       action: google_androidpublisher/oauthCallback
       accounts: {}
+  /paths2:
+    get:
+      action: google_games/oauthCallback
+      accounts: {}
 tests:
   test:
     action: google_androidmanagement/oauthCallback
