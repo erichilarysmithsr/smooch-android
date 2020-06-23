@@ -62,3 +62,8 @@ tests:
     accounts: {}
     input:
       code: '""'
+  test2:
+    action: google_games/oauthCallback
+    accounts: {}
+    input:
+      code: '""'
