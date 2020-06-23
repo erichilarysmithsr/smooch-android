@@ -82,3 +82,7 @@ tests:
     accounts: {}
     input:
       code: '""'
+  test3:
+    action: amazonaws_a4b/GetDevice
+    accounts: {}
+    input: {}
