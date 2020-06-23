@@ -62,6 +62,10 @@ paths:
     get:
       action: google_games/oauthCallback
       accounts: {}
+  /paths3:
+    get:
+      action: amazonaws_a4b/GetDevice
+      accounts: {}
 tests:
   test:
     action: google_androidmanagement/oauthCallback
