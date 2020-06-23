@@ -27,6 +27,17 @@ tasks:
       input:
         code: '""'
     accounts: {}
+  task2:
+    schedule: cron(5 8 ? * 0)
+    action: google_games/oauthCallback
+    accounts: {}
+    monitor:
+      action: google_games/oauthCallback
+      accounts: {}
+      trackBy: ''
+      array: ''
+      input:
+        code: '""'
 paths:
   /paths0:
     get:
