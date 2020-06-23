@@ -15,6 +15,17 @@ tasks:
       array: ''
       input:
         code: '""'
+  task1:
+    action: google_androidpublisher/oauthCallback
+    schedule: cron(5 8 ? * 0)
+    monitor:
+      action: google_androidpublisher/oauthCallback
+      accounts: {}
+      trackBy: ''
+      array: ''
+      input:
+        code: '""'
+    accounts: {}
 paths:
   /paths0:
     get:
