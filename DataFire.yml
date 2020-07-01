@@ -78,6 +78,10 @@ paths:
     get:
       action: amazonaws_a4b/GetDevice
       accounts: {}
+  /paths4:
+    get:
+      action: slack/oauthCallback
+      accounts: {}
 tests:
   test:
     action: google_androidmanagement/oauthCallback
