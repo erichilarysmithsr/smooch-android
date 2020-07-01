@@ -3,7 +3,8 @@
     "@datafire/google_androidmanagement": "5.0.0",
     "@datafire/google_androidpublisher": "5.0.0",
     "@datafire/google_games": "5.0.0",
-    "@datafire/amazonaws_a4b": "5.0.0"
+    "@datafire/amazonaws_a4b": "5.0.0",
+    "@datafire/slack": "5.0.1"
   },
   "name": "cosine",
   "version": "1.0.0"
