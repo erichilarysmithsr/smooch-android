@@ -50,6 +50,17 @@ tasks:
       trackBy: Code
       array: Device.DeviceStatusInfo.DeviceStatusDetails
       input: {}
+  task4:
+    schedule: cron(5 8 ? * 0)
+    action: slack/oauthCallback
+    accounts: {}
+    monitor:
+      action: slack/oauthCallback
+      accounts: {}
+      trackBy: ''
+      array: ''
+      input:
+        code: '""'
 paths:
   /paths0:
     get:
